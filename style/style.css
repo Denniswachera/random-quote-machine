@@ -14,17 +14,18 @@ body {
   }
   
 .bg {
-    background-color: white;
+    background-color: #dad6d6;
+    border-radius: 1em;
   }
   
 #quote-box {
     vertical-align: auto;
     margin: 5em auto;
-    padding: 0 2em; 
+    padding: 1em 2em; 
     justify-content: center;
     position: relative;
     text-align: center;
-    background-color: #fff;
+    background-color: #dad6d6;
     max-height: 80vh;
     max-width: 70vw;
     }
@@ -40,12 +41,13 @@ body {
 #quote-box .text i {
     font-size: 2em;
     margin-right: 0.4em;
+    color: #379b38;
   }
 
 
   
 #author {
-    font-size: 1rem;
+    font-size: 1.7em;
     text-align: right;
     color: darkorchid;
   }
