@@ -44,13 +44,13 @@ function genRandQuote() {
 	},
 	{
 		id: 7,
-		text: "Doing just a little bit during the time we have available puts you that much further ahead than if you took no action at all.",
-		source: "Pulsifer, Take Action; Don't Procrastinate"
+		text: "Our moral economy went bankrupt long before our financial one.",
+		source: "Steve Maraboli,"
 	},
 	{
 		id: 8,
-		text: "Never leave that till tomorrow which you can do today.",
-		source: "Benjamin Franklin"
+		text: "You must always overcome your comfort zone",
+		source: "Sunday Adelaja "
 	},
 	{
 		id: 9,
