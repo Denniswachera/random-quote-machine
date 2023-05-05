@@ -26,7 +26,6 @@ body {
     position: relative;
     text-align: center;
     background-color: #dad6d6;
-    max-height: 80vh;
     max-width: 70vw;
     }
   
@@ -34,14 +33,14 @@ body {
     font-size: 2em;
     font-family: monospace;
     font-weight: 500;
-    color: #379b38;
+    color: #1E274d;
   }
 
 
 #quote-box .text i {
     font-size: 2em;
     margin-right: 0.4em;
-    color: #379b38;
+    color: #1E274d;
   }
 
 
@@ -49,7 +48,7 @@ body {
 #author {
     font-size: 1.7em;
     text-align: right;
-    color: darkorchid;
+    color: #1E274d;
   }
   
 #buttons {
@@ -57,3 +56,36 @@ body {
     padding: 1em;
     margin: 1em;
   }
+
+  @media only screen and (max-width: 870px) {
+    #text {
+    color: orangered;
+    font-size: 1.5em;
+    }
+
+    #quote-box {
+      padding: 1em 0;
+    }
+
+
+#quote-box .text i {
+  font-size: 1.5em;
+  color: #1E274d;
+}
+
+#author {
+  font-size: 0.8em;
+  text-align: right;
+  color: #1E274d;
+}
+
+  
+#buttons {
+  position: sticky;
+  padding: 0;
+  margin: 0;
+  line-height: 1em;
+  }
+
+
+}
